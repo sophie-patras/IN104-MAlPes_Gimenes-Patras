@@ -1,0 +1,298 @@
+id_point;nom;type;altitude;latitude;longitude;état;nombre de place
+4206;La ferme du Danay;refuge gardé;1561;45.92261;6.44207;;19
+6068;Refuge de Spée;refuge gardé;1470;45.9942387306067;6.37143145955633;;35
+164;Refuge du Parmelan (ou Camille Dunant);refuge gardé;1825;45.946188928361;6.24007344245911;;49
+393;Refuge de Lessy;refuge gardé;1760;45.99028;6.43988;;19
+362;Refuge de Larrieux;refuge gardé;1532;45.8651;6.2696;;35
+170;Refuge de la Pointe Percée ou Gramusset;refuge gardé;2162;45.95551;6.54424;;48
+3134;Refuge de Mayères;refuge gardé;1600;45.95007;6.58719;;50
+165;Refuge de la Tournette (ou Blonay Dufour);refuge gardé;1774;45.828;6.2764;Fermé;0
+1506;Refuge de La Sure;refuge gardé;1306;45.23004;5.58141;Fermé;20
+4385;Refuge des Narces;refuge gardé;1300;45.1048;5.51509;;12
+2255;Refuge d'Archiane;refuge gardé;784;44.74615;5.5044;;30
+1031;Auberge de Combeau;refuge gardé;1370;44.7655;5.56706;;18
+4351;Refuge du Lac de la Grande Léchère;refuge gardé;1680;45.40695;6.31091;;38
+58;L'Oule ou Antoine Cros;refuge gardé;1840;45.31417;6.13539;;19
+57;Gîte d'alpage / Refuge de la Combe Madame;refuge gardé;1784;45.26474;6.11402;;22
+10;Refuge du Pré du Mollard;refuge gardé;1740;45.18915;5.93554;;15
+3;Refuge de la Pra;refuge gardé;2109;45.16128;5.94438;;74
+14;Refuge Jean Collet;refuge gardé;1960;45.19242;5.96736;;34
+397;Refuge des Mottets;refuge gardé;1870;45.73732;6.77916;;50
+376;Refuge Torino;refuge gardé;3375;45.84514;6.93378;;212
+1590;Refuge Monzino;refuge gardé;2561;45.79944;6.88452;;55
+365;Refuge Gonella;refuge gardé;3072;45.81924;6.83236;;24
+315;Refuge de l'Envers des Aiguilles;refuge gardé;2523;45.89998;6.92768;;58
+374;Refuge Dalmazzi;refuge gardé;2590;45.89396;7.04056;;30
+237;Refuge du Plan de l'Aiguille;refuge gardé;2207;45.90558;6.88272;;35
+339;Refuge Durier;refuge gardé;3389;45.82541;6.81177;;24
+338;Refuge des Conscrits;refuge gardé;2602;45.7869;6.7659;;90
+2444;Cabane de l'A Neuve;refuge gardé;2735;45.94878;7.0669;;28
+2441;Cabane  du Trient;refuge gardé;3170;45.99956;7.04355;;128
+317;Refuge d'Argentière;refuge gardé;2771;45.94636;7.00457;;91
+2442;Cabane d'Orny;refuge gardé;2811;46.00191;7.06278;;90
+316;Refuge Albert 1er;refuge gardé;2706;45.99675;6.98663;;140
+384;Refuge Elisabetta;refuge gardé;2185;45.767;6.83745;;80
+347;Refuge Robert Blanc;refuge gardé;2750;45.7653;6.7744;;45
+1047;Refuge du Nid d'Aigle;refuge gardé;2372;45.856;6.7995;;20
+2443;Cabane de Saleinaz;refuge gardé;2691;45.97644;7.07031;;48
+340;Refuge Plan-Glacier;refuge gardé;2730;45.83234;6.79651;;25
+239;Refuge de Leschaux;refuge gardé;2431;45.89439;6.98098;;22
+143;Refuge du Couvercle;refuge gardé;2687;45.91023;6.96533;;128
+328;Refuge de Tête-Rousse;refuge gardé;3167;45.8549214005732;6.81751549243927;;72
+335;Refuge du Goûter;refuge gardé;3835;45.8510132013015;6.83044910430908;;120
+2900;Chalet des Grands-Dessus;refuge gardé;2113;46.02297;7.00478;;15
+350;Refuge de Tré-la-Tête;refuge gardé;1970;45.79172;6.73502;;85
+337;Refuge des Grands-mulets;refuge gardé;3051;45.86661;6.86138;;68
+334;Refuge de la Charpoua;refuge gardé;2841;45.9241;6.9552;;12
+275;Refuge du Requin;refuge gardé;2516;45.88463;6.9297;;57
+344;Refuge de Lognan;refuge gardé;2032;45.97082;6.95671;;30
+348;Refuge de la Balme;refuge gardé;1706;45.7575;6.71111;;50
+342;Refuge des Cosmiques;refuge gardé;3613;45.8732;6.88582;;145
+147;Refuge du Col de la Vanoise;refuge gardé;2516;45.3918;6.7906;;130
+427;Refuge de l'Orgère;refuge gardé;1985;45.2292;6.67299;;70
+291;Refuge du Plan des Gouilles;refuge gardé;2352;45.44417;6.7432;;40
+1125;Refuge du Roc de la Pêche;refuge gardé;1911;45.3278;6.69126;;60
+111;Refuge de la Dent Parrachée;refuge gardé;2511;45.26974;6.71909;;40
+1597;Refuge de Plaisance;refuge gardé;2170;45.4629;6.7919;;38
+400;Refuge des lacs Merlet;refuge gardé;2417;45.36086;6.65168;;14
+433;Refuge du Mont Pourri;refuge gardé;2370;45.52802;6.82681;;56
+2383;Refuge de la Traye;refuge gardé;1640;45.43036;6.53085;Fermé;12
+386;Refuge du Grand Bec;refuge gardé;2405;45.4165;6.7329;;36
+401;Refuge de Peclet-Polset;refuge gardé;2474;45.28925;6.6592;;84
+500;Refuge du fond d'Aussois;refuge gardé;2338;45.27679;6.70246;;42
+2396;Refuge du Saut;refuge gardé;2126;45.3371;6.6323;;25
+1917;Refuge de la Glière;refuge gardé;2010;45.43123;6.81403;;32
+6072;Refuge du Plan;refuge gardé;1750;45.3573295546172;6.59411820379319;Fermé;0
+402;Refuge du Carro;refuge gardé;2760;45.41989;7.12307;;61
+1510;Refuge de La Valette;refuge gardé;2590;45.35346;6.72404;;44
+283;Refuge de La Martin;refuge gardé;2154;45.5237;6.9;;32
+406;Refuge de l'Arpont;refuge gardé;2309;45.3192;6.7931;;92
+1175;Refuge du Fond des Fours;refuge gardé;2537;45.4015;6.992;;42
+282;Refuge de Turia;refuge gardé;2427;45.5533;6.8734;;20
+145;Refuge de la Femma;refuge gardé;2352;45.36276;6.92918;;44
+146;Refuge de la Leisse;refuge gardé;2487;45.39684;6.88228;;32
+408;Refuge du Plan du Lac;refuge gardé;2385;45.34602;6.83742;;42
+2550;Plan de Lombardie;refuge gardé;1784;45.4002;6.4309;;21
+1142;Refuge du Vallonbrun;refuge gardé;2272;45.31032;6.93725;;6
+321;Refuge de Prariond;refuge gardé;2324;45.45561;7.07102;Fermé;0
+319;Refuge de Presset;refuge gardé;2514;45.64826;6.66378;;30
+303;Refuge de la Coire;refuge gardé;2062;45.61831;6.60856;;15
+267;Refuge du plan de la Lai;refuge gardé;1828;45.6931;6.6692;;19
+305;Refuge de la Balme;refuge gardé;2000;45.63214;6.66905;;25
+266;Refuge du Col de la Croix du Bonhomme;refuge gardé;2443;45.72209;6.7173;;99
+416;Refuge de la Chardonnière;refuge gardé;1360;46.14045;6.7741;;20
+2473;Refuge-auberge de Salanfe;refuge gardé;1950;46.14465;6.97094;;120
+99;Refuge de Platé;refuge gardé;2032;45.9656;6.7173;;35
+1435;Refuge de la Vogealle;refuge gardé;1901;46.1122;6.8379;;58
+354;Refuge de Moëde-Anterne;refuge gardé;1996;45.9748;6.8006;;91
+355;Refuge du Grenairon;refuge gardé;1974;46.03229;6.79831;;85
+369;Refuge du Vieux Emosson;refuge gardé;2205;46.0625;6.9003;;28
+2469;Cabane de Susanfe;refuge gardé;2102;46.13938;6.89797;;72
+185;Refuge de Bostan;refuge gardé;1770;46.1234;6.7792;;70
+106;Refuge Alfred Wills (Anterne);refuge gardé;1810;46.00449;6.79135;;54
+360;Refuge de la Flégère;refuge gardé;1807;45.96;6.8875;;90
+370;Refuge de Loriaz;refuge gardé;2020;46.0391;6.9132;;30
+356;Refuge des Fonts;refuge gardé;1368;46.0210751923565;6.81100845336914;;32
+1279;Refuge des Garins;refuge gardé;1106;45.691;6.1467;;20
+2917;"Chalet de la Servaz dit ""La Sarve""";refuge gardé;1434;45.7188;6.2483;;19
+71;Refuge de la Combe;refuge gardé;1573;45.7419513196065;6.20500087738037;;20
+1521;Gîte de St Disdier;refuge gardé;1030;44.73549;5.89537;;24
+281;Refuge de l'Etendard;refuge gardé;2430;45.20377;6.17541;;80
+308;Refuge des Aiguilles d'Arves;refuge gardé;2260;45.11819;6.37521;;39
+6053;Refuge du Pic du Mas de la Grave;refuge gardé;1944;45.08673;6.260115;;32
+4507;Refuge de Terre Rouge;refuge gardé;2182;45.1306657234974;6.51244640350342;;40
+506;Refuge du Chardonnet;refuge gardé;2223;45.02573;6.53189;;39
+3949;Refuge-gîte  du Suffet;refuge gardé;1690;45.20608;6.84573;;40
+426;Refuge du Mont Thabor;refuge gardé;2502;45.12343;6.59979;;46
+3145;Refuge Buffère;refuge gardé;2076;45.01264;6.57066;;30
+444;Refuge d'Ambin;refuge gardé;2270;45.16348;6.86502;;30
+405;Refuge de Ricou;refuge gardé;2115;45.04636;6.54401;;20
+409;Refuge des Drayères;refuge gardé;2180;45.081;6.508;;64
+3712;Refuge Vaccarone;refuge gardé;2741;45.15393;6.91692;;15
+1710;Refuge du Pavé;refuge gardé;2841;44.98592;6.32856;;26
+6472;Refuge de Font Turbat;refuge gardé;2169;44.865;6.17769;;39
+647;Refuge Temple Ecrins;refuge gardé;2410;44.9042;6.3325;;48
+4223;Gite des trois cols;refuge gardé;1477;44.61603;6.33258;;40
+1166;Refuge des Souffles;refuge gardé;1980;44.84464;6.14658;;30
+1529;L'Alpe du Pin;refuge gardé;1805;44.94464;6.17329;;16
+1341;Refuge de la Muzelle;refuge gardé;2115;44.953;6.09762;;52
+1753;Refuge du Châtelleret;refuge gardé;2232;44.97573;6.29962;;70
+1767;Refuge de Chabournéou;refuge gardé;2020;44.80995;6.31482;;44
+2296;Refuge du Pré de La Chaumette;refuge gardé;1805;44.76534;6.32756;;60
+2319;Refuge des Clots;refuge gardé;1517;45.04361;6.18288;;20
+1752;Refuge du Promontoire;refuge gardé;3092;44.99843;6.30492;;30
+1548;Refuge de l'Olan;refuge gardé;2344;44.84151;6.20453;;56
+1540;Refuge du Sélé;refuge gardé;2513;44.87332;6.39053;;76
+1488;Refuge de l'Aigle;refuge gardé;3440;45.01129;6.32455;;30
+1537;Refuge Adèle Planchard;refuge gardé;3169;44.96892;6.34515;;64
+1536;Refuge du Pelvoux;refuge gardé;2700;44.8825;6.4057;;56
+1550;Refuge du Glacier Blanc;refuge gardé;2542;44.93755;6.41172;;135
+1552;Refuge du Clot (Xavier Blanc);refuge gardé;1397;44.82925;6.27554;;40
+5572;Chalet- refuge de Chamoissière;refuge gardé;2106;44.9954880939572;6.38550281524658;;18
+1545;Refuge de la Selle;refuge gardé;2673;44.98228;6.24913;;75
+1754;Refuge de la Pilatte;refuge gardé;2577;44.87;6.3321;;118
+1544;Refuge du Soreiller;refuge gardé;2730;44.9604;6.2437;;90
+1165;Refuge de Vallonpierre;refuge gardé;2271;44.7986;6.2898;;39
+1538;Refuge des Bans;refuge gardé;2083;44.83442;6.3612;;22
+1741;Refuge Evariste Chancel;refuge gardé;2506;45.02687;6.27117;;35
+2166;Châlet Alpin de la Bérarde;refuge gardé;1734;44.9325;6.2935;;61
+1549;Refuge du Pigeonnier;refuge gardé;2427;44.85489;6.28497;;52
+1276;Refuge de Chalance;refuge gardé;2560;44.84143;6.23615;;14
+1547;Refuge de l'Alpe du Villar d'Arène;refuge gardé;2079;44.99619;6.38445;;94
+1535;Refuge des Ecrins;refuge gardé;3175;44.9473;6.38284;;120
+1546;Refuge de la Lavey;refuge gardé;1797;44.89862;6.20616;;45
+404;Chalet le Zaulay (ou Zolé);refuge gardé;1100;46.2105;6.72522;Détruit;0
+333;Refuge de la Dent d'Oche;refuge gardé;2114;46.35274;6.7277;;45
+3740;Refuge de Chavan;refuge gardé;1600;46.18262;6.56326;;19
+419;Refuge de Bise;refuge gardé;1502;46.33031;6.76453;;20
+1675;Refuge Agnel;refuge gardé;2585;44.69085;6.97129;;80
+1288;Refuge du Viso;refuge gardé;2460;44.70043;7.0514;;65
+1428;Refuge des Fonts de Cervières;refuge gardé;2040;44.84465;6.8157;;60
+1673;Refuge de Maljasset;refuge gardé;1903;44.5927592753085;6.84231519699097;;50
+1676;Refuge de Chambeyron;refuge gardé;2626;44.53012;6.83602;;70
+1689;Refuge du Laverq;refuge gardé;1570;44.34914;6.50484;Fermé;16
+4323;Refuge Dahu de Sabarnui;refuge gardé;1702;44.2609;7.0442;;21
+2701;Refuge de Longon (Vacherie de Roure);refuge gardé;1883;44.13925;7.04693;;35
+1220;Refuge de Nice;refuge gardé;2232;44.10441;7.40038;;80
+1305;Refuge du Rabuons;refuge gardé;2523;44.26844;6.9781;;36
+6008;Refuge de Malinvern;refuge gardé;0;44.2202766552635;7.18442559242249;;0
+1437;Refuge Guglielmo Migliorero;refuge gardé;2100;44.28274;7.01921;;88
+1173;Refuge CAF de la Valmasque;refuge gardé;2233;44.10815;7.44656;;52
+1209;Refuge des Merveilles;refuge gardé;2130;44.0572;7.4518;;75
+1368;Refuge de Vens;refuge gardé;2380;44.31672;6.94199;;45
+2025;Gîte-Refuge de la Madone de Fenestre;refuge gardé;1904;44.09551;7.357;;63
+6381;Refuge Vittorio Sella;refuge gardé;2588;45.58012;7.30347;;150
+1416;Refuge des Evettes;refuge gardé;2590;45.3685;7.10739;;64
+2228;Refuge de l’Epée;refuge gardé;2370;45.5889;7.0602;;80
+1203;Rifugio Mario Bezzi;refuge gardé;2284;45.541;7.01803;;90
+568;Refuge d'Avérole;refuge gardé;2210;45.29723;7.08436;;88
+1177;Rifugio Città di Chivasso;refuge gardé;2604;45.47978;7.14296;;38
+3046;Ca' D'Asti;refuge gardé;2854;45.19115;7.07473;;100
+676;Refuge du Ruitor;refuge gardé;2038;45.6251;6.9408;;35
+5377;Refuge Ernesto Tazzetti;refuge gardé;2642;45.20933;7.09627;;32
+5375;Refuge Citta di Cirié;refuge gardé;1850;45.3071;7.1634;;23
+6396;Refuge Pontese;refuge gardé;2217;45.4958793507751;7.36895084381104;;70
+5378;Refuge Bartolomeo Gastaldi;refuge gardé;2659;45.29778;7.14339;;76
+5384;Refuge Luigi Cibrario;refuge gardé;2616;45.2468;7.14726;;42
+5432;Refuge degli Angeli (Ex Scavarda);refuge gardé;2916;45.62444;7.02972;;49
+2229;Refuge Albert Deffeyes;refuge gardé;2494;45.6753;6.9859;;92
+2668;Refuge Victor Emmanuel II;refuge gardé;2732;45.51265;7.22959;;150
+2667;Refuge Chabod;refuge gardé;2750;45.5403003975893;7.23893880844116;;85
+1172;Rifugio Benevolo;refuge gardé;2285;45.51573;7.08451;;61
+1118;Wildhornhütte;refuge gardé;2303;46.37923;7.38795;;96
+1161;Schilthornhütte;refuge gardé;2432;46.57003;7.86283;;23
+2414;Oberaarjochhütte;refuge gardé;3258;46.52627;8.17347;;56
+4298;Oberaletschütte SAC;refuge gardé;2640;46.4249;7.9738;;58
+2324;Cabane des Audannes;refuge gardé;2508;46.3434;7.384;;52
+2416;Konkordiahütte;refuge gardé;2850;46.5005;8.05324;;155
+2913;Cabane de Plan Névé;refuge gardé;2262;46.25193;7.14428;;30
+2911;Refuge de Pierredar;refuge gardé;2293;46.32131;7.19486;;22
+3362;Schreckhornhütte;refuge gardé;2530;46.58185;8.09867;;65
+1335;Hollandiahutte;refuge gardé;3240;46.4753;7.96036;;100
+2980;Wildstrubelhütte;refuge gardé;2790;46.38249;7.46811;;0
+1095;Mönchsjochhütte;refuge gardé;3657;46.55482;8.00574;;125
+2887;Cabane du Demècre;refuge gardé;2361;46.17412;7.08215;;25
+5661;Berghotel Schwarenbach;refuge gardé;2060;46.4320303638013;7.6250159740448;;154
+2915;Cabane du Fénestral;refuge gardé;2440;46.18896;7.10054;;45
+2885;Cabane Rambert;refuge gardé;2580;46.2302;7.1342;;44
+1029;Rottalhütte;refuge gardé;2755;46.52613;7.94471;;45
+2901;Cabane de Sorniot ou Sorgno;refuge gardé;2064;46.16931;7.09488;;49
+3512;La Tièche;refuge gardé;1987;46.35006;7.53643;;33
+4312;Geltenhütte;refuge gardé;2002;46.36957;7.3391;;89
+4137;Baltschiederklause;refuge gardé;2783;46.395;7.88975;;76
+2923;La Tourche;refuge gardé;2198;46.21444;7.06193;;54
+2392;Refuge de La Barma;refuge gardé;2458;46.06142;7.38605;;50
+2467;Cabane d'Arpitettaz;refuge gardé;2786;46.10084;7.6793;;32
+2268;Weisshornhütte;refuge gardé;2932;46.08595;7.74354;;30
+1571;Cabane de Prafleuri;refuge gardé;2662;46.07497;7.37881;;59
+2352;Cabane Bordier;refuge gardé;2886;46.14462;7.84989;;44
+2238;Cabane du Mountet;refuge gardé;2886;46.06;7.65351;;115
+1475;Cabane des Vignettes;refuge gardé;3158;45.98983;7.47567;;120
+2595;Refuge CAI Saronno;refuge gardé;1827;45.96651;7.92478;;24
+2389;Refuge de l'Oriondé (Duca degli Abruzzi);refuge gardé;2802;45.95907;7.64384;;20
+2269;Täschhütte;refuge gardé;2701;46.05154;7.82997;;80
+2330;Refuge Guide d'Ayas (Lambronecca);refuge gardé;3400;45.92056;7.76704;;80
+2433;Britannia Hütte;refuge gardé;3030;46.06007;7.93507;;134
+3843;Refuge Frassati;refuge gardé;2550;45.84108;7.09671;;60
+2239;Schönbielhütte;refuge gardé;2694;46.002;7.629;;80
+1568;Cabane des Dix;refuge gardé;2928;46.011;7.4176;;140
+2326;Turtmannhütte (Tourtemagne);refuge gardé;2519;46.16;7.6995;;72
+2340;Refuge Letey (Champillon);refuge gardé;2465;45.84992;7.2692;;30
+2460;Cabane de la Tsa;refuge gardé;2607;46.03037;7.50385;;60
+2463;Cabane de Balavaud;refuge gardé;2042;46.15405;7.28124;;40
+1708;Refuge de Crête Sèche;refuge gardé;2400;45.8822;7.3989;;80
+2307;Cabane des Aiguilles Rouges;refuge gardé;2810;46.0564;7.4575;;70
+2381;Weissmieshütten;refuge gardé;2726;46.14385;7.97785;;150
+2432;Monte Rosa Hütte (Cabane Bétemps);refuge gardé;2883;45.95698;7.81459;;120
+1572;Almagellerhütte;refuge gardé;2894;46.10762;8.00776;;120
+2336;Refuge de la Testa Grigia (Guide del Cervino);refuge gardé;3480;45.93415;7.70768;;40
+1595;Refuge du Col Collon (Nacamuli);refuge gardé;2818;45.94844;7.50049;;60
+3682;Refuge du Plan du Jeu;refuge gardé;2073;45.90255;7.20555;;22
+2335;Refuge du Théodule (Teodulo - Theodulhütte);refuge gardé;3317;45.94407;7.70852;;60
+1947;Cabane de Moiry;refuge gardé;2825;46.0907;7.59549;;96
+3941;Refuge de Chaligne;refuge gardé;1934;45.77852;7.25158;;36
+5498;Rifugio Magià;refuge gardé;2007;45.8403;7.5079;;60
+3619;Mittleberghütte;refuge gardé;2393;46.3855;8.2779;;22
+2338;Cabane du Vélan;refuge gardé;2642;45.9169;7.2454;;60
+5499;Ostello Lavesé;refuge gardé;1533;45.7678724699014;7.58089792754617;;20
+2349;Cabane de Bertol;refuge gardé;3311;46.00609;7.52771;;80
+2411;Rifugio G.B. Ferraro;refuge gardé;2066;45.8661;7.73985;;26
+6343;Rifugio Carestia;refuge gardé;2201;45.80334;7.8959;;30
+2339;Refuge Amianthé (Chiarella);refuge gardé;2979;45.9102;7.3047;;42
+1688;Hospice du Grand-St-Bernard;refuge gardé;2469;45.86889;7.17057;;80
+2458;Cabane Marcel Brunet;refuge gardé;2103;46.03036;7.27423;;65
+2267;Domhütte;refuge gardé;2940;46.10278;7.81769;;75
+3839;Refuge Mont Fallère;refuge gardé;2385;45.76192;7.18134;;60
+2210;Rothornhütte;refuge gardé;3198;46.04857;7.69737;;84
+1511;Cabane de Valsorey;refuge gardé;3030;45.9304;7.27176;;60
+1705;Cabane Topali;refuge gardé;2675;46.15694;7.76188;;44
+1556;Cabane de Chanrion;refuge gardé;2462;45.93917;7.38095;;86
+1489;Refuge Margherita / Signalkuppe;refuge gardé;4556;45.92696;7.87689;;75
+2395;Refuge de Prarayer;refuge gardé;2005;45.92101;7.53273;;50
+1950;Cabane de Tracuit;refuge gardé;3256;46.13025;7.67955;;116
+2329;Refuge Mezzalama;refuge gardé;3004;45.91371;7.75954;;40
+2346;Cabane de la Dent Blanche (Rossier);refuge gardé;3507;46.0202;7.60084;;50
+2594;Refuge Zamboni-Zappa;refuge gardé;2065;45.95315;7.91804;;72
+2898;Monte Leone;refuge gardé;2848;46.26084;8.08044;;34
+2066;Refuge Giovanni Gnifetti;refuge gardé;3647;45.89982;7.84999;;330
+1569;Refuge Città di Mantova (Guide di Gressoney);refuge gardé;3470;45.89532;7.84793;;91
+1493;Mischabelhütte;refuge gardé;3330;46.10937;7.88887;;130
+3589;Bortelhütten;refuge gardé;2113;46.29392;8.09333;;35
+2888;Binntalhütte;refuge gardé;2275;46.3747;8.29178;;52
+2347;Refuge Aosta;refuge gardé;2788;45.96951;7.56143;;30
+6905;Rifugio Bonatti;refuge gardé;2025;45.84698;7.03339;;75
+6913;Rifugio Città di Vigevano;refuge gardé;2864;45.87085;7.87361;Fermé;
+1490;Refuge Quintino Sella (Mont Rose);refuge gardé;3585;45.90111;7.7929;;140
+4140;Al Legn;refuge gardé;1814;46.12232;8.66712;;12
+4310;Bovarina;refuge gardé;1870;46.56013;8.88864;;42
+4785;Scaletta;refuge gardé;2205;46.60763;8.94057;;40
+4788;Capanna Cadagno;refuge gardé;1987;46.54655;8.71967;;76
+4823;Capanna Leit;refuge gardé;2257;46.46692;8.71877;;67
+3975;Adula CAS;refuge gardé;2012;46.49909;8.99579;;34
+3476;Piansecco;refuge gardé;1988;46.49431;8.47152;Fermé;54
+3976;Adula UTOE;refuge gardé;2393;46.49531;9.00771;;58
+2055;Refuge Corno Gries;refuge gardé;2338;46.46715;8.41009;;50
+3510;Cristallina;refuge gardé;2575;46.47184;8.5264;;120
+6391;Alzasca CAS;refuge gardé;1734;46.27129415087;8.58929118660753;;22
+4784;Dötra;refuge gardé;1748;46.53154;8.87959;;54
+2871;Zoissova koca na Kokrskem sedlu;refuge gardé;1793;46.34418;14.54689;;0
+2872;Dom Pri Krn Jezero;refuge gardé;1450;46.28893;13.69656;;170
+6379;Albigna;refuge gardé;2336;46.3300716839536;9.65531222475987;;85
+4141;Rifugio Malghera;refuge gardé;1937;46.3434;10.1392;;90
+2991;Grubenberghütte;refuge gardé;1840;46.54928;7.25193;;32
+3759;Refuge de Mayen;refuge gardé;1842;46.36634;7.01446;;40
+4376;Refuge Willy Jervis;refuge gardé;1732;44.77337;7.03933;;50
+2021;Refuge Gagliardone;refuge gardé;2630;44.67018;7.06699;Fermé;0
+4059;"Rifugio ""Severino Bessone"" al Lago Verde";refuge gardé;2583;44.82812;7.02054;;56
+2015;Refuge Quintino Sella (Viso);refuge gardé;2640;44.66564;7.10973;;113
+2014;Refuge Vallanta (Valante);refuge gardé;2420;44.66569;7.06449;;60
+1431;Refuge bivouac Nino Soardi;refuge gardé;2630;44.81794;7.02012;;12
+2807;Refuge Giacoletti;refuge gardé;2741;44.69673;7.07595;;60
+5552;Rifugio Fontana Mura;refuge gardé;1726;45.018531;7.187;;25
+2959;Refuge de Granero;refuge gardé;2377;44.72807;7.04528;;48
+4787;Terrihütte;refuge gardé;2170;46.63457;9.00492;;110
+3835;Similaun Hütte;refuge gardé;3019;46.77241;10.85461;;70
+4937;Martin Busch Hütte (Samoar Hütte);refuge gardé;2501;46.80104;10.88694;;120
+5414;Brandenburger Haus;refuge gardé;3277;46.84461;10.7781;;105
+5470;Breslauer Hütte;refuge gardé;2844;46.8682;10.8789;;160
+2841;Refuge Tuckett et Sella;refuge gardé;2271;46.19196;10.88228;;120
