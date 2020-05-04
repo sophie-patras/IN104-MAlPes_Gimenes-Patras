@@ -1,0 +1,25 @@
+#:kivy 1.0.9
+<ClignoteGps>:
+    taille_clignotant_defaut: 10 
+    taille_clignotant: 10
+    opacite_ext: 1
+    source: 'transparent.png'
+
+
+    canvas.before:
+        # cercle exterieur
+        Color:
+            rgba: [1,0,0] + [root.opacite_ext]
+        RoundedRectangle:
+            radius: [root.taille_clignotant/2.0, ] # on cree un rectangle dont on parametre les angles pour que ce soit un cercle
+            size: [root.taille_clignotant, root.taille_clignotant] # width and heigh, on fait un carre
+            pos: [root.pos[0] + root.size[0]/2.0 -root.taille_clignotant/2.0, root.pos[1] + root.size[1]/2.0 - root.taille_clignotant/2.0] #position
+        # cercle interieur
+        Color:
+            rgba: [1,0,0,1]
+        RoundedRectangle:
+            radius: [root.taille_clignotant_defaut/2.0, ]
+            size: [root.taille_clignotant_defaut, root.taille_clignotant_defaut]
+            pos: [root.pos[0] + root.size[0]/2.0 - root.taille_clignotant_defaut/2.0, root.pos[1] + root.size[1]/2.0 - root.taille_clignotant_defaut/2.0]
+
+
