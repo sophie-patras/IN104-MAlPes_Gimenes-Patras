@@ -1,19 +1,20 @@
+#:kivy 1.0.9
 #: import MapView kivy.garden.mapview.MapView
+#: import ClignoteGps clignotegps.ClignoteGps
+#: include clignotegps.kv 
 
 <CartoRefuges>:
-	#Nice
-	lat: 43.70
-	lon: 7.25
-
-	zoom: 10 
-	#fixe le minimum zoom
-	on_zoom:
-		self.zoom=10 if self.zoom>10 else self.zoom
-	
-	
-	#A chaque fois qu'on modifie la carte observée=champ, la fonction qui fait apparaitre les marqueurs=cairn est appelée
-		
-	on_lat:
-		self.debut_cairn_dans_champ()
-	on_lon:
-		self.debut_cairn_dans_champ()
+    #Grenoble 
+    lat: 45.1666700
+    lon: 5.7166700
+    zoom: 10
+    on_zoom: 
+        self.zoom = 10 if self.zoom >10 else self.zoom #cree un zoom max
+    on_lat:
+        self.debut_cairn_dans_champ() # appelle la fonction des que lat change
+    on_lon:
+        self.debut_cairn_dans_champ()
+    ClignoteGps: 
+        lat: root.lat #2 lignes a supprimer une fois que le gps marchera 
+        lon: root.lon 
+        id: clignotant 
