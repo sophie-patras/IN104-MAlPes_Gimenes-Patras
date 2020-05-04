@@ -1,3 +1,9 @@
-#:include carto_refuges.kv
-
-CartoRefuges:
+#:kivy 1.0.9
+#: include carto_refuges.kv
+BoxLayout:
+    orientation: 'vertical'
+    MDToolbar:
+        title: "Recherche" #future barre de recherche
+    
+    CartoRefuges:
+        id: cairn 
