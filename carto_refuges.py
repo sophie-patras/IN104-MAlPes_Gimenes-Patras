@@ -28,10 +28,10 @@ class CartoRefuges(MapView):
 		#creer une balise
 		lat, lon = x[4],x[5]
 		balise=Balises(lat=lat, lon=lon)
-		balise.point_data=point
+		balise.point_data=x
 		# l'afficher
 		self.add_widget(balise)		
 		#Popup(title="Test", content=Label(text='x'),size_hint=(None,None), size=(200,200))
 		#on ne veut pas supperposer les balises quand on bouge la carte
-		nom=point[1]
+		nom=x[1]
 		self.noms_points.append(nom) #pb si on sort du champ puis revient
