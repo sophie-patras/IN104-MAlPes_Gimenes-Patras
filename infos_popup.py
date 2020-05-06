@@ -1,4 +1,4 @@
-from kivymd.uix.dialog import ListMDDialog
+from kivymd.uix.dialog import MDDialog 
 
 """
 from kivy.uix.popup import Popup
@@ -6,7 +6,7 @@ from kivy.uix.label import Label
 popup = Popup(title='Test popup', content=Label(text='Hello world'), size_hint=(None, None), size=(400, 400))
 """
 
-class InfosPopup(ListMDDialog):
+class InfosPopup(MDDialog):
 
 
     def __init__(self, point_data):
