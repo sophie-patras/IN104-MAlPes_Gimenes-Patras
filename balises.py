@@ -7,7 +7,7 @@ from infos_popup import InfosPopup
 
 class Balises(MapMarkerPopup):
 
-	source = "icone_refuge.jpg" #retravailler sur le choix/dim des icones
+	source = "icone_maison_mini.png" #dimensions adaptées
 	point_data=[]
 
 	def on_release(self):
