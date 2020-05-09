@@ -24,4 +24,4 @@ class CustomPopup(Popup):
         	#femetue du popup
         	self.dismiss()"""
 
-Builder.load_file("balisepop.kv")
+Builder.load_file("balises.kv")
