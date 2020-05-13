@@ -5,11 +5,11 @@
 	lat: 43.70
 	lon: 7.25
 
-	zoom: 10 
+	zoom: 8 
 	#fixe le minimum zoom
 	on_zoom:
-		self.zoom=10 if self.zoom>10 else self.zoom
-	
+		self.zoom=7 if self.zoom>11 else self.zoom
+	#Pour zoomer il faut double cliquer sur la table et repprocher les doigths !
 	
 	#A chaque fois qu'on modifie la carte observée=champ, la fonction qui fait apparaitre les marqueurs=cairn est appelée
 		
