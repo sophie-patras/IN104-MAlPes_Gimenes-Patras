@@ -17,3 +17,50 @@
 		self.debut_cairn_dans_champ()
 	on_lon:
 		self.debut_cairn_dans_champ()
+
+        #Ajout d'un boutton si besoin pour plus tard
+	BoxLayout:
+
+		FloatButton:
+			text: "[b] + [/b]"
+			font_size: '20sp'
+			markup : True
+
+# faire : import icon kivy.garden.iconfonts.icon et dans text: 's%'%(icon('zmdi-github', 32))
+
+<FloatButton@FloatLayout>:
+	id: float_root
+	size_hint: (None, None)
+	text:''
+	btn_size: (50,50)
+	size: (70,70)
+	bg_color: (0.157, 0.455, 0.753, 1.0)
+	pos_hint: {'x': .2}
+	Button:	
+		text: float_root.text
+		markup: True
+		size_hint: (None, None)
+		size: float_root.btn_size
+		pos_hint: {'x': .2, 'y': .2}
+		background_color: (0,0,0,0)
+		background_normal: ''
+		canvas.before:
+			Color:
+				rgba: float_root.bg_color
+			Ellipse:
+				size:self.size
+				pos: self.pos
+
+
+<SmoothButton@Button>:
+	background_color: (0,0,0,0)
+	background_normal: ''
+	back_color: (1,0,0.8,1)
+	border_radius: [18]
+	canvas.before:
+		Color:
+			rgba: self.back_color
+		RoundedRectangle:
+			size: self.size
+			pos: self.pos
+			radius: self.border_radius
