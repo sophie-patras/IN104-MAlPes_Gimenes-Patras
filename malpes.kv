@@ -1,3 +1,58 @@
-#:include carto_refuges.kv
+#:kivy 1.0.9
+#: include carto_refuges.kv
+#: import NavigationLayout kivymd.uix.navigationdrawer.NavigationLayout
+#: import MDSeparator kivymd.uix.card.MDSeparator
 
-CartoRefuges:
+<ItemDrawer>:
+    theme_text_color: "Custom"
+    on_release: self.parent.set_color_item(self)
+    IconLeftWidget: #permet de créer les différentes catégories du menu 
+        id: icon
+        icon: root.icon
+        theme_text_color: "Custom"
+        text_color: root.text_color
+
+<ContentNavigationDrawer>:
+    orientation: "vertical"
+    padding: "8dp"
+    spacing: "2dp"
+    AnchorLayout:
+        orientation: "vertical"
+        anchor_x:"left"
+        size_hint_y: 0.4
+        height: avatar.height
+        Image: #header du menu 
+            id: avatar 
+            size_hint:1,1
+            size: "300dp", "250dp"
+            source:"alpes.png"
+    MDLabel:
+        text: "Menu MAlPes"
+        font_style: "Button"
+        size_hint_y: None
+        height: self.texture_size[1]
+    MDLabel:
+        text:"une application de Sophie Patras et Lucille Gimenes"
+        font_style: "Caption"
+        size_hint_y: None
+        height: self.texture_size[1]
+
+    ScrollView:
+        DrawerList:
+            id: md_list
+Screen:
+    NavigationLayout:
+        ScreenManager:
+            Screen:
+                BoxLayout:
+                    orientation: 'vertical'
+                    MDToolbar:
+                        right_action_items: [['magnify',lambda x: app.menu_recherche.open()]] #bouton recherche
+                        md_bg_color:  [1,1,0,0.9]
+                        left_action_items:[['menu',lambda x: nav_drawer.set_state()]] #bouton menu 
+                    CartoRefuges:
+                        id: cairn 
+        MDNavigationDrawer:
+            id: nav_drawer
+            ContentNavigationDrawer: 
+                id: content_drawer 
