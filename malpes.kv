@@ -2,6 +2,7 @@
 #: include carto_refuges.kv
 #: import NavigationLayout kivymd.uix.navigationdrawer.NavigationLayout
 #: import MDSeparator kivymd.uix.card.MDSeparator
+#: import MDCard kivymd.uix.card.MDCard 
 
 <ItemDrawer>:
     theme_text_color: "Custom"
@@ -40,10 +41,40 @@
     ScrollView:
         DrawerList:
             id: md_list
+            ItemDrawer:
+                text: "Informations"
+                icon: "help"
+                on_press:
+                    root.nav_drawer.set_state("close")
+                    root.screen_manager.current = "info"
+            ItemDrawer:
+                text: "Navigation GPS"
+                icon: "navigation"
+            ItemDrawer: 
+                text: "Plan"
+                icon: "map"
+                on_press:
+                    root.nav_drawer.set_state("close")
+                    root.screen_manager.current = "plan"
+            ItemDrawer: 
+                text: "Relief"
+                icon: "image"
+            ItemDrawer:
+                text: "Velo"
+                icon: "bike"
+            ItemDrawer:
+                text: "Enregistrements"
+                icon: "bookmark"
+            ItemDrawer:
+                text: "Historique"
+                icon: "history"
+
 Screen:
     NavigationLayout:
         ScreenManager:
+            id: screen_manager
             Screen:
+                name: "plan" 
                 BoxLayout:
                     orientation: 'vertical'
                     MDToolbar:
@@ -52,7 +83,40 @@ Screen:
                         left_action_items:[['menu',lambda x: nav_drawer.set_state()]] #bouton menu 
                     CartoRefuges:
                         id: cairn 
+            Screen:
+             name: "info" 
+             BoxLayout:
+                orientation: 'vertical'
+                MDToolbar:
+                    md_bg_color:  [1,1,0,0.9]
+                    left_action_items:[['menu',lambda x: nav_drawer.set_state()]] #bouton menu
+                MDCard:    
+                    orientation: 'vertical'
+                    size_hint_y: 0.3
+                    size_hint_x: 0.5
+                    pos_hint: {'x':.25, 'y':.8}
+                    elevation: 12
+                    padding: "50dp"
+                    spacing: "2dp"
+                    Image: 
+                        source: "marmotte.png"
+                        size_hint_y: 0.7
+                    MDLabel:
+                        orientation: 'vertical'
+                        text: "MAlPes is an application created by Sophie Patras and Lucille Gimenes for the IN104 course" 
+                        font_style: "Button"
+                        halign: 'center'
+                        size_hint_y: 0.15
+                    MDLabel:
+                        orientation: 'vertical'
+                        text: "This app enables all hikers, from beginners to confirmed, to find great moutain refuges in the Alpes"
+                        font_style: "Caption"
+                        halign: 'center'
+                        size_hint_y: 0.15
+            
         MDNavigationDrawer:
             id: nav_drawer
             ContentNavigationDrawer: 
                 id: content_drawer 
+                screen_manager: screen_manager
+                nav_drawer: nav_drawer 
