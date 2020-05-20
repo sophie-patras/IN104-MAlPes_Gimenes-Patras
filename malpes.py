@@ -5,7 +5,7 @@ from kivymd.app import MDApp
 from kivy.uix.boxlayout import BoxLayout
 from kivymd.uix.list import MDList, OneLineIconListItem
 from kivymd.theming import ThemableBehavior
-from kivy.properties import StringProperty
+from kivy.properties import StringProperty,ObjectProperty
 
 from carto_refuges import CartoRefuges
 from assistancegps import AssistanceGps
@@ -16,7 +16,8 @@ class ItemDrawer(OneLineIconListItem):
     icon=StringProperty()
 
 class ContentNavigationDrawer(BoxLayout):
-    pass 
+    screen_manager=ObjectProperty()
+    nav_drawer=ObjectProperty()
 
 class DrawerList(ThemableBehavior,MDList):
     def set_color_item(self,instance_item):
@@ -41,11 +42,7 @@ class MalpesApp(MDApp):
 
 		# Initialiser le menu de recherche
 		self.menu_recherche= PopupMenuRecherche()
-		#menu latéral 
-		icons_item={"map":"Plan","image":"Relief","navigation":"Navigation GPS","bike":"Vélo","hotel":"Refuges",
-			    "bookmark":"Enregistrement","history":"Historique","help":"Informations"}
-        	for icon_name in icons_item.keys():
-            		self.root.ids.content_drawer.ids.md_list.add_widget(ItemDrawer(icon=icon_name,text=icons_item[icon_name]))
+
 
 if __name__ == "__main__":
 	MalpesApp().run()
