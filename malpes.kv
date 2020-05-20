@@ -68,6 +68,9 @@
             ItemDrawer:
                 text: "Historique"
                 icon: "history"
+                on_press: 
+                    root.nav_drawer.set_state("close")
+                    root.screen_manager.current = "historique" 
 
 Screen:
     NavigationLayout:
@@ -109,10 +112,18 @@ Screen:
                         size_hint_y: 0.15
                     MDLabel:
                         orientation: 'vertical'
-                        text: "This app enables all hikers, from beginners to confirmed, to find great moutain refuges in the Alpes"
+                        text: "This app enables all hikers, from beginners to confirmed, to find great moutain refuges in the Alpes. Refuges are displayed on the map, you just have to click on the icon to have all matching information"
                         font_style: "Caption"
                         halign: 'center'
                         size_hint_y: 0.15
+             
+            Screen: 
+                name: "historique"
+                BoxLayout:
+                    orientation: 'vertical'
+                    MDToolbar:
+                        md_bg_color:  [1,1,0,0.9]
+                        left_action_items:[['menu',lambda x: nav_drawer.set_state()]] #bouton menu
             
         MDNavigationDrawer:
             id: nav_drawer
