@@ -1,15 +1,15 @@
 #:kivy 1.0.9
 <ClignoteGps>:
-    taille_clignotant_defaut: 10 
+    taille_clignotant_defaut: 10 #taille du cercle au début de l'animation
     taille_clignotant: 10
-    opacite_ext: 1
+    opacite_ext: 1 #opacité du cercle au départ 
     source: 'transparent.png'
 
 
     canvas.before:
         # cercle exterieur
         Color:
-            rgba: [1,0,0] + [root.opacite_ext]
+            rgba: [1,0,0] + [root.opacite_ext] #on veut que le point soit rouge 
         RoundedRectangle:
             radius: [root.taille_clignotant/2.0, ] # on cree un rectangle dont on parametre les angles pour que ce soit un cercle
             size: [root.taille_clignotant, root.taille_clignotant] # width and heigh, on fait un carre
