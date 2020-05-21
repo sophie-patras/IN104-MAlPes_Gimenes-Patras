@@ -1,6 +1,6 @@
 
 from kivy.garden.mapview import MapMarkerPopup
-from menudialogx import ListMDDialog
+from menudialog import ListMDDialog
 
 class Balises(MapMarkerPopup):
 
