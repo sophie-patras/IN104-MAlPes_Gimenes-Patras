@@ -24,7 +24,7 @@
         anchor_x:"left"
         size_hint_y: 0.4
         height: avatar.height
-        Image:
+        Image: #sorte de header en haut de la barre de navigation 
             id: avatar 
             size_hint:1,1
             size: "300dp", "250dp"
@@ -41,13 +41,13 @@
         height: self.texture_size[1]
 
     ScrollView:
-        DrawerList:
+        DrawerList: # on liste tout les items de la barre de navigation 
             id: md_list
             ItemDrawer:
                 text: "Informations"
                 icon: "help"
-                on_press:
-                    root.nav_drawer.set_state("close")
+                on_press: #à chaque item, on associe l'écran correspondant 
+                    root.nav_drawer.set_state("close") 
                     root.screen_manager.current = "info"
             ItemDrawer:
                 text: "Navigation GPS"
@@ -88,17 +88,17 @@ Screen:
                 name: "plan"
                 BoxLayout:
                     orientation: 'vertical'
-                    MDToolbar:
+                    MDToolbar: #barre de recherche 
                         right_action_items: [['magnify',lambda x: app.menu_recherche.open()]] #bouton recherche
                         md_bg_color:  [1,1,0,0.9]
                         left_action_items:[['menu',lambda x: nav_drawer.set_state()]] #bouton menu 
-                    CartoRefuges:
+                    CartoRefuges: #on ajoute la carte avec les refuges 
                         id: cairn 
             Screen:
                 name: "info" 
                 BoxLayout:
                     orientation: 'vertical'
-                    MDToolbar:
+                    MDToolbar: 
                         md_bg_color:  [1,1,0,0.9]
                         left_action_items:[['menu',lambda x: nav_drawer.set_state()]] #bouton menu
                     MDCard:    
