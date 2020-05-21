@@ -1,7 +1,7 @@
 #: import MapView kivy.garden.mapview.MapView
 
 <CartoRefuges>:
-	#Nice
+	#Nice : permet de centrer la carte sur Nice au démarrage 
 	lat: 43.70
 	lon: 7.25
 
@@ -18,7 +18,9 @@
 	on_lon:
 		self.debut_cairn_dans_champ()
 		
-	ClignoteGps:  #widget du gps 
+	ClignoteGps:  #on ajoute le widget du gps 
+		lat: root.lat #ces deux lignes seront à supprimer une fois le gps configuré sur smartphone
+		lon: root.lon 
         	id: clignotant 
 
         #Ajout d'un boutton si besoin pour plus tard
