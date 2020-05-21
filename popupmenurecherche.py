@@ -25,7 +25,9 @@ class PopupMenuRecherche(MDInputDialog):
         url= "https://geocode.search.hereapi.com/v1/geocode?q=%s&apiKey=%s"%(adresse, app_key) #la requête de HERE
         UrlRequest(url, on_success=self.success, on_failure=self.failure, on_error=self.error)
     
-    def success(self,urlrequest,result): #lorsque la requête a bien abouti 
+    def success(self,urlrequest,result): #lorsque l'url est bien lu  
+        if (len(result['items'])==0):
+            return ("Erreur de saisie") #si le geocoder ne trouve pas de lieu correspondant à l'adresse, on ne fait rien
         latitude=result['items'][0]['position']['lat'] #positions de lat et lon dans la réponse de HERE
         longitude=result['items'][0]['position']['lng']
         app=App.get_running_app()
