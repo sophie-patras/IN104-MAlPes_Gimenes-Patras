@@ -6,7 +6,8 @@
 	lon: 7.25
 
 	zoom: 8 
-	#fixe le minimum zoom
+	#fixe le minimum zoom de départ
+	double_tap_zoom: True #permet de double cliquer pour zoomer 
 	on_zoom:
 		self.zoom=7 if self.zoom>11 else self.zoom
 	#Pour zoomer il faut double cliquer sur la table et repprocher les doigths !
